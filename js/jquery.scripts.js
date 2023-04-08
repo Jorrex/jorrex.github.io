@@ -1,4 +1,4 @@
-$(window).load(function () {
+$(window).on('load', function () {
 	// Homepage Slider
 
 	$('#home-slider, #room-wrap').flexslider({
@@ -14,24 +14,9 @@ $(window).load(function () {
 	});
 
 	$('#home-slider .flex-direction-nav, #home-slider .flex-captions, #room-wrap .flex-direction-nav, #room-wrap .flex-captions').wrapAll('<div class="flex-utils container" />');
-
-	// $('#room-carousel').flexslider({
-	// 	animation: "slide",
-	// 	animationLoop: true,
-	// 	slideshow: false,
-	// 	itemWidth: 223,
-	// 	asNavFor: '#room-gallery'
-	// });
-
-	// $('#room-gallery').flexslider({
-	// 	controlNav: false,
-	// 	animationLoop: false,
-	// 	slideshow: false,
-	// 	sync: "#room-carousel"
-	// });
 });
 
-jQuery(document).ready(function ($) {
+jQuery(document).on('ready', function ($) {
 
 	//Submenu
 	$('.nav').superfish({
@@ -69,30 +54,6 @@ jQuery(document).ready(function ($) {
 	$("#navigation select").change(function () {
 		window.location = $(this).find("option:selected").val();
 	});
-
-	// Weather
-	// var location = 'GRXX0044';
-	// var unit = 'c';
-
-	// var wq = "SELECT * FROM weather.forecast WHERE location='" + location + "' AND u='" + unit + "'";
-	// var cb = Math.floor((new Date().getTime()) / 1200 / 1000);
-	// var wu = 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent(wq) + '&format=json&_nocache=' + cb;
-
-	// window['ywcb'] = function (data) {
-	// 	console.log(data);
-	// 	var info = data.query.results.channel.item.condition;
-	// 	var city = data.query.results.channel.location.city;
-	// 	var country = data.query.results.channel.location.country;
-	// 	$('#ywloc').html(city + ", " + country);
-	// 	$('#ywtem').html(info.temp + '<span>' + '&deg;' + (unit.toUpperCase()) + '</span>');
-	// };
-
-	// $.ajax({
-	// 	url: wu,
-	// 	dataType: 'jsonp',
-	// 	cache: true,
-	// 	jsonpCallback: 'ywcb'
-	// });
 
 	$('#btnBook').click(function () {
 		var arrivalDate = $('#arrival');
