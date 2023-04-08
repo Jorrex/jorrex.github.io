@@ -104,30 +104,32 @@ jQuery(document).on('ready', function ($) {
 
 
 	// Google Maps code
-	if ($('#map').length > 0) {
-		var firstLocation = new google.maps.LatLng(51.194449, 3.171292);
-		//center map to first event
-		var myOptions = {
-			zoom: 14,
-			center: firstLocation,
-			mapTypeId: google.maps.MapTypeId.ROADMAP,
-			streetViewControl: false,
-			mapTypeControl: false
-		};
-		var map = new google.maps.Map(document.getElementById("map"), myOptions);
-		var info = new google.maps.InfoWindow({
-			content: '<div>Lobelia B&B</div><div>Nieuwe Sint-Annadreef 4</div><div>8200 Bruges</div><div>Belgium</div>'
-		});
-		var marker = new google.maps.Marker({
-			position: firstLocation,
-			map: map,
-			title: 'Lobelia B&B',
-			animation: google.maps.Animation.DROP
-		});
-		google.maps.event.addListener(marker, 'click', function () {
-			info.open(map, marker);
-		})
-	} //end if( $('.map').length > 0)
+	setTimeout(() => {
+		if ($('#map').length > 0) {
+			var firstLocation = new google.maps.LatLng(51.194449, 3.171292);
+			//center map to first event
+			var myOptions = {
+				zoom: 14,
+				center: firstLocation,
+				mapTypeId: google.maps.MapTypeId.ROADMAP,
+				streetViewControl: false,
+				mapTypeControl: false
+			};
+			var map = new google.maps.Map(document.getElementById("map"), myOptions);
+			var info = new google.maps.InfoWindow({
+				content: '<div>Lobelia B&B</div><div>Nieuwe Sint-Annadreef 4</div><div>8200 Bruges</div><div>Belgium</div>'
+			});
+			var marker = new google.maps.Marker({
+				position: firstLocation,
+				map: map,
+				title: 'Lobelia B&B',
+				animation: google.maps.Animation.DROP
+			});
+			google.maps.event.addListener(marker, 'click', function () {
+				info.open(map, marker);
+			})
+		}
+	}, 5_000);
 
 	//Fancybox
 	if ($('.fb').length > 0) {
