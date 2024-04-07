@@ -1,0 +1,61 @@
+{
+    "images": [
+        { "key": "entrance", "caption": "Entrance" },
+        { "key": "parking", "caption": "Private parking" },
+        { "key": "breakfast", "caption": "Breakfast" },
+        { "key": "dining", "caption": "Dining area" },
+        { "key": "mugs", "caption": "Beverages" },
+        { "key": "terrace", "caption": "Terrace" },
+        { "key": "noordzee_bed", "caption": "Bed" },
+        { "key": "noordzee_lounge", "caption": "Lounge" },
+        { "key": "noordzee_bathroom", "caption": "Bathroom" },
+        { "key": "brugge_bed", "caption": "Bed" },
+        { "key": "brugge_lounge", "caption": "Lounge" },
+        { "key": "brugge_bathroom", "caption": "Bathroom" },
+        { "key": "polders_bed", "caption": "Bed" },
+        { "key": "polders_lounge", "caption": "Lounge" },
+        { "key": "polders_bathroom", "caption": "Bathroom" }
+
+    ],
+    "menu": {
+        "home": "Home",
+        "rooms": "Rooms",
+        "highlights": "Highlights",
+        "contact": "Contact",
+        "room_1": "Noordzee",
+        "room_2": "Polders",
+        "room_3": "Brugge"
+    },
+    "room_limits": {
+        "polders": "2 adults | 2 adults, 1 child (< 16y)",
+        "noordzee": "2 adults | 2 adults, 1 child (< 16y)",
+        "brugge": "2 adults | 2 adults, 1 child (< 16y)"
+    },
+    "room": {
+        "info": "Room information",
+        "crib": "Crib available by request.",
+        "surface": "Surface of 60m².",
+        "smoke": "No smoking allowed.",
+        "no_pets": "No pets allowed."
+    },
+    "facility": {
+        "wifi": "WiFi",
+        "floor_type": "Flooring",
+        "view": "Outside view",
+        "elevator_access": "Elevator available",
+        "sofa_bed": "Sofa bed",
+        "bed_linen": "Bed linen",
+        "refrigerator": "Refrigerator",
+        "kettle": "Electric kettle",
+        "safe": "Safe",
+        "fan": "Fan",
+        "heating": "Heating",
+        "sofa": "Sofa",
+        "flatscreen_tv": "Flatscreen TV",
+        "shower": "Shower",
+        "towels": "Towels",
+        "hairdryer": "Hairdryer",
+        "toiletries": "Toiletries",
+        "toilet": "Toilet"
+    }
+}
