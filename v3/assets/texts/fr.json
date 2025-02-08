@@ -1,0 +1,60 @@
+{
+    "images": [
+        { "key": "entrance", "caption": "Entrance" },
+        { "key": "parking", "caption": "Parking privé" },
+        { "key": "breakfast", "caption": "Petit-déjeuner" },
+        { "key": "dining", "caption": "Lieu de restauration" },
+        { "key": "mugs", "caption": "Boissons" },
+        { "key": "terrace", "caption": "Terrace" },
+        { "key": "noordzee_bed", "caption": "Lit" },
+        { "key": "noordzee_lounge", "caption": "Lounge" },
+        { "key": "noordzee_bathroom", "caption": "Salle de bain" },
+        { "key": "brugge_bed", "caption": "Lit" },
+        { "key": "brugge_lounge", "caption": "Lounge" },
+        { "key": "brugge_bathroom", "caption": "Salle de bain" },
+        { "key": "polders_bed", "caption": "Lit" },
+        { "key": "polders_lounge", "caption": "Lounge" },
+        { "key": "polders_bathroom", "caption": "Salle de bain" }
+    ],
+    "menu": {
+        "home": "Acceuil",
+        "rooms": "Chambres",
+        "highlights": "Points forts",
+        "contact": "Contact",
+        "room_1": "Noordzee",
+        "room_2": "Polders",
+        "room_3": "Brugge"
+    },
+    "room_limits": {
+        "polders": "2 adultes | 2 adultes, 1 enfant (< 16 ans)",
+        "noordzee": "2 adultes | 2 adultes, 1 enfant (< 16 ans)",
+        "brugge": "2 adultes | 2 adultes, 1 enfant (< 16 ans)"
+    },
+    "room": {
+        "info": "Informations sur la chambre",
+        "crib": "Lit d'enfant disponible sur demande",
+        "surface": "Surface de 60m².",
+        "smoke": "interdiction de fumer.",
+        "no_pets": "Les animaux domestiques ne sont pas admis."
+    },
+    "facility": {
+        "wifi": "WiFi",
+        "floor_type": "revêtement de sol",
+        "view": "Vue extérieure",
+        "elevator_access": "Ascenseur disponible",
+        "sofa_bed": "Canapé-lit",
+        "bed_linen": "Linge de lit",
+        "refrigerator": "Réfrigérateur",
+        "kettle": "Bouilloire électrique",
+        "safe": "Coffre-fort",
+        "fan": "Ventilateur",
+        "heating": "Chauffage",
+        "sofa": "Canapé",
+        "flatscreen_tv": "Flatscreen TV",
+        "shower": "Douche",
+        "towels": "Serviettes",
+        "hairdryer": "Sèche-cheveux",
+        "toiletries": "Articles de toilette",
+        "toilet": "Toilette"
+    }
+}

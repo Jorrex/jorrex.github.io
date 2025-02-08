@@ -1,0 +1,209 @@
+{
+    "languages": ["nl", "en"],
+    "menu": [
+        { "key": "home", "icon": "home", "url": "home" },
+        { "key": "rooms", "icon": "bed", "items": [
+            { "key": "room_1", "icon": "", "url": "noordzee" },
+            { "key": "room_2", "icon": "", "url": "polders" },
+            { "key": "room_3", "icon": "", "url": "brugge" }
+        ] },
+        { "key": "highlights", "icon": "map", "url": "highlights" },
+        { "key": "contact", "icon": "contact_support", "url": "contact" }
+    ],
+    "images": [
+        {
+            "key": "entrance",
+            "name":  "front.jpg"
+        },
+        {
+            "key": "parking",
+            "name":  "entrance.jpg"
+        },
+        {
+            "key": "breakfast",
+            "name":  "breakfast.jpg"
+        },
+        {
+            "key": "dining",
+            "name":  "dinner_area.jpg"
+        },
+        {
+            "key": "mugs",
+            "name":  "mugs.jpg"
+        },
+        {
+            "key": "terrace",
+            "name":  "terrace.jpg"
+        }
+    ],
+    "facilities": [
+        { "key": "wifi", "category": "general", "icon": "wifi" },
+        { "key": "safe", "category": "general", "icon": "key" },
+        { "key": "breakfast", "category": "general", "icon": "bakery_dining" },
+        { "key": "parking", "category": "general", "icon": "local_parking" },
+        { "key": "elevator_access", "icon": "elevator" }
+    ],
+    "rooms": [
+        {
+            "key": "noordzee",
+            "name": "Noordzee",
+            "price": 180,
+            "images": [
+                {
+                    "key": "bed",
+                    "image": "room_3_3.jpg",
+                    "caption": "Bed",
+                    "isThumbnail": true
+                },
+                {
+                    "key": "lounge",
+                    "image": "room_3_1.jpg",
+                    "caption": "Dressing"
+                },
+                {
+                    "key": "bathroom",
+                    "image": "room_3_2.jpg",
+                    "caption": "Bathroom"
+                }
+            ],
+            "facilities": [
+                { "key": "floor_type", "category": "room", "icon": "layers" },
+                { "key": "view", "category": "room", "icon": "panorama" },
+                { "key": "sofa_bed", "category": "room", "icon": "chair" },
+                { "key": "bed_linen", "category": "room", "icon": "waves" },
+                { "key": "refrigerator", "category": "room", "icon": "kitchen" },
+                { "key": "kettle", "category": "room", "icon": "coffee_maker" },
+                { "key": "fan", "category": "room", "icon": "air" },
+                { "key": "heating", "category": "room", "icon": "fireplace" },
+                { "key": "sofa", "category": "room", "icon": "chair" },
+                { "key": "flatscreen_tv", "category": "room", "icon": "tv" },
+                { "key": "shower", "category": "bathroom", "icon": "shower" },
+                { "key": "towels", "category": "bathroom", "icon": "dry_cleaning" },
+                { "key": "hairdryer", "category": "bathroom", "icon": "sports" },
+                { "key": "toiletries", "category": "bathroom", "icon": "wash" },
+                { "key": "toilet", "category": "bathroom", "icon": "wc" }
+            ],
+            "info": [
+                { "key": "crib", "icon": "crib" },
+                { "key": "surface", "icon": "square_foot" },
+                { "key": "smoke", "icon": "smoke_free" },
+                { "key": "no_pets", "icon": "pets" }
+            ]
+        },
+        {
+            "key": "polders",
+            "name": "Polders",
+            "price": 150,
+            "images": [
+                {
+                    "key": "lounge",
+                    "image": "room_2_1.jpg",
+                    "caption": "Lounge",
+                    "isThumbnail": true
+                },
+                {
+                    "key": "bed",
+                    "image": "room_2_2.jpg",
+                    "caption": "Bed"
+                },
+                {
+                    "key": "bathroom",
+                    "image": "room_2_3.jpg",
+                    "caption": "Bathroom"
+                }
+            ],
+            "facilities": [
+                { "key": "floor_type", "category": "room", "icon": "layers" },
+                { "key": "view", "category": "room", "icon": "panorama" }, 
+                { "key": "sofa_bed", "category": "room", "icon": "chair" },
+                { "key": "bed_linen", "category": "room", "icon": "waves" },
+                { "key": "refrigerator", "category": "room", "icon": "kitchen" },
+                { "key": "kettle", "category": "room", "icon": "coffee_maker" },
+                { "key": "fan", "category": "room", "icon": "air" },
+                { "key": "heating", "category": "room", "icon": "fireplace" },
+                { "key": "sofa", "category": "room", "icon": "chair" },
+                { "key": "flatscreen_tv", "category": "room", "icon": "tv" },
+                { "key": "shower", "category": "bathroom", "icon": "shower" },
+                { "key": "towels", "category": "bathroom", "icon": "dry_cleaning" },
+                { "key": "hairdryer", "category": "bathroom", "icon": "sports" },
+                { "key": "toiletries", "category": "bathroom", "icon": "wash" },
+                { "key": "toilet", "category": "bathroom", "icon": "wc" }
+            ],
+            "info": [
+                { "key": "crib", "icon": "crib" },
+                { "key": "surface", "icon": "square_foot" },
+                { "key": "smoke", "icon": "smoke_free" },
+                { "key": "no_pets", "icon": "pets" }
+            ]
+        },
+        {
+            "key": "brugge",
+            "name": "Brugge",
+            "price": 120,
+            "images": [
+                {
+                    "key": "bed",
+                    "image": "room_1_1.jpg",
+                    "caption": "Queen Bed",
+                    "isThumbnail": true
+                },
+                {
+                    "key": "lounge",
+                    "image": "room_1_3.jpg",
+                    "caption": "Lounge"
+                },
+                {
+                    "key": "bathroom",
+                    "image": "room_1_2.jpg",
+                    "caption": "Bathroom"
+                }
+            ],
+            "facilities": [
+                { "key": "floor_type", "category": "room", "icon": "layers" },
+                { "key": "view", "category": "room", "icon": "panorama" },
+                { "key": "sofa_bed", "category": "room", "icon": "chair" },
+                { "key": "bed_linen", "category": "room", "icon": "waves" },
+                { "key": "refrigerator", "category": "room", "icon": "kitchen" },
+                { "key": "kettle", "category": "room", "icon": "coffee_maker" },
+                { "key": "fan", "category": "room", "icon": "air" },
+                { "key": "heating", "category": "room", "icon": "fireplace" },
+                { "key": "sofa", "category": "room", "icon": "chair" },
+                { "key": "flatscreen_tv", "category": "room", "icon": "tv" },
+                { "key": "shower", "category": "bathroom", "icon": "shower" },
+                { "key": "towels", "category": "bathroom", "icon": "dry_cleaning" },
+                { "key": "hairdryer", "category": "bathroom", "icon": "sports" },
+                { "key": "toiletries", "category": "bathroom", "icon": "wash" },
+                { "key": "toilet", "category": "bathroom", "icon": "wc" }
+            ],
+            "info": [
+                { "key": "crib", "icon": "crib" },
+                { "key": "surface", "icon": "square_foot" },
+                { "key": "smoke", "icon": "smoke_free" },
+                { "key": "no_pets", "icon": "pets" }
+            ]
+        }
+    ],
+    "highlights": {
+        "images": [
+            { "key": "bruges", "name": "bruges.jpg" },
+            { "key": "sea", "name": "sea.jpg" },
+            { "key": "flower_field", "name": "flower_field.jpg" }
+        ],
+        "items": [
+            { "category": "landmarks", "name": "Jan Breydel stadium", "latLng": { "lat": 51.1932398, "lng": 3.1800161 } },
+            { "category": "landmarks", "name": "King Albert I Park", "latLng": { "lat": 51.201532, "lng": 3.2163349 }},
+            { "category": "landmarks", "name": "Smedenpoort", "latLng": { "lat": 0, "lng": 0 }},
+            { "category": "food/drinks", "name": "Tuinbos", "latLng": { "lat": 0, "lng": 0 }},
+            { "category": "food/drinks", "name": "In De Vriendschap", "latLng": { "lat": 0, "lng": 0 }},
+            { "category": "food/drinks", "name": "Den Compoir", "latLng": { "lat": 0, "lng": 0 }},
+            { "category": "nature", "name": "Noordzee", "latLng": { "lat": 0, "lng": 0 }}
+        ]
+    },
+    "contact": {
+        "address": "Nieuwe Sint-Annadreef 4, 8200 Brugge",
+        "email": "lobelia@something.com",
+        "tel": "0476574829",
+        "btw": "<btw nummer>",
+        "image": { "key": "lobelia", "name": "front.jpg" }
+    }
+}

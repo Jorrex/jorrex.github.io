@@ -1,0 +1,97 @@
+{
+    "images": [
+        { "key": "entrance", "caption": "Ingang" },
+        { "key": "parking", "caption": "Privé parking" },
+        { "key": "breakfast", "caption": "Ontbijt" },
+        { "key": "dining", "caption": "Eetzaal" },
+        { "key": "mugs", "caption": "Drankjes" },
+        { "key": "terrace", "caption": "Terras" },
+        { "key": "noordzee_bed", "caption": "Bed" },
+        { "key": "noordzee_lounge", "caption": "Lounge" },
+        { "key": "noordzee_bathroom", "caption": "Badkamer" },
+        { "key": "brugge_bed", "caption": "Bed" },
+        { "key": "brugge_lounge", "caption": "Lounge" },
+        { "key": "brugge_bathroom", "caption": "Badkamer" },
+        { "key": "polders_bed", "caption": "Bed" },
+        { "key": "polders_lounge", "caption": "Lounge" },
+        { "key": "polders_bathroom", "caption": "Badkamer" },
+        { "key": "bruges", "caption": "Brugge" },
+        { "key": "sea", "caption": "Duinen" },
+        { "key": "flower_field", "caption": "Bloementuin" }
+    ],
+    "menu": {
+        "home": "Start",
+        "rooms": "Kamers",
+        "highlights": "Hoogtepunten",
+        "contact": "Contact",
+        "room_1": "Noordzee",
+        "room_2": "Polders",
+        "room_3": "Brugge"
+    },
+    "home": {
+        "information": "Informatie",
+        "description": "Deze B&B met 4 sterren ligt vlak bij het centrum van Brugge, op slechts 30 minuten van de luchthaven Oostende-Brugge. Gasten kunnen gebruikmaken van de privéparkeergelegenheid op het terrein.",
+        "checkin": "Inchecken",
+        "checkinTime": "Van 16:00 tot 18:00",
+        "checkout": "Uitchecken",
+        "checkoutTime": "Van 9:00 tot 11:",
+        "notes": "Extra",
+        "covid": "Covid maskers zijn op aanvraag verkrijgbaar.",
+        "payment_methods": "Beschikbare betaalwijzes zijn VISA, MasterCard, bancontact en cash.",
+        "bicycle_access": "Beschikbare fietsknooppunten zijn nabij.",
+        "honesty_bar": "Honesty bar - Neem een drankje wanneer je wilt, blijf eerlijk en betaal er voor.",
+        "cribs_request": "Wiegjes zijn op aanvraag beschikbaar."
+    },
+    "room_limits": {
+        "polders": "2 volwassenen | 2 volwassenen, 1 kind (< 16j)",
+        "noordzee": "2 volwassenen | 2 volwassenen, 1 kind (< 16j)",
+        "brugge": "2 volwassenen | 2 volwassenen, 1 kind (< 16j)"
+    },
+    "room": {
+        "starting_from": "Prijs vanaf",
+        "info": "Informatie",
+        "crib": "Babybedje op aanvraag.",
+        "surface": "Oppervlakte van 60m².",
+        "smoke": "Verboden te roken.",
+        "no_pets": "Geen huisdieren toegelaten.",
+        "room_facilities": "Voorzieningen",
+        "general_facilities": "Algemene voorzieningen"
+    },
+    "facility": {
+        "wifi": "WiFi",
+        "floor_type": "Bevloering",
+        "view": "Uitzicht",
+        "elevator_access": "Lift beschikbaar",
+        "sofa_bed": "Sofa bed",
+        "bed_linen": "Beddengoed",
+        "refrigerator": "Koelkast",
+        "kettle": "Elektrische ketel",
+        "safe": "Kluis",
+        "fan": "Ventilator",
+        "heating": "Verwarming",
+        "sofa": "Sofa",
+        "flatscreen_tv": "Flatscreen TV",
+        "shower": "Douche",
+        "towels": "Handdoeken",
+        "hairdryer": "Haardroger",
+        "toiletries": "Toiletartikelen",
+        "toilet": "Toilet"
+    },
+    "highlights": {
+        "showOnMap": "Toon op kaart",
+        "landmarks": "Bezienswaardigheden",
+        "food/drinks": "Eten en drank",
+        "nature": "Natuur"
+    },
+    "contact": {
+        "contact": "Contact informatie",
+        "address": "Adres",
+        "email": "Email",
+        "tel": "Tel",
+        "btw": "BTW-nummer",
+        "reservation": "Reservaties",
+        "reservation_terms": "Reserveren kan alleen via e-mail. We accepteren geen reserveringen via de telefoon.",
+        "payment_terms": "Betalingsvoorwaarden vindt u",
+        "pdf_target": "hier"
+    }
+}

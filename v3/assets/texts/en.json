@@ -1,0 +1,97 @@
+{
+    "images": [
+        { "key": "entrance", "caption": "Entrance" },
+        { "key": "parking", "caption": "Private parking" },
+        { "key": "breakfast", "caption": "Breakfast" },
+        { "key": "dining", "caption": "Dining area" },
+        { "key": "mugs", "caption": "Beverages" },
+        { "key": "terrace", "caption": "Terrace" },
+        { "key": "noordzee_bed", "caption": "Bed" },
+        { "key": "noordzee_lounge", "caption": "Lounge" },
+        { "key": "noordzee_bathroom", "caption": "Bathroom" },
+        { "key": "brugge_bed", "caption": "Bed" },
+        { "key": "brugge_lounge", "caption": "Lounge" },
+        { "key": "brugge_bathroom", "caption": "Bathroom" },
+        { "key": "polders_bed", "caption": "Bed" },
+        { "key": "polders_lounge", "caption": "Lounge" },
+        { "key": "polders_bathroom", "caption": "Bathroom" },
+        { "key": "bruges", "caption": "Bruges" },
+        { "key": "sea", "caption": "Dunes" },
+        { "key": "flower_field", "caption": "Flower garden" }
+    ],
+    "menu": {
+        "home": "Home",
+        "rooms": "Rooms",
+        "highlights": "Highlights",
+        "contact": "Contact",
+        "room_1": "Noordzee",
+        "room_2": "Polders",
+        "room_3": "Brugge"
+    },
+    "home": {
+        "information": "Information",
+        "description": "This B&B with 4 stars is located nearby the center of Bruges, only 30 minutes away from the airport Ostend-Bruges. Guests can use the private parking on the grounds.",
+        "checkin": "Check-in",
+        "checkinTime": "From 16:00 to 18:00",
+        "checkout": "Check-out",
+        "checkoutTime": "From 9:00 to 11:00",
+        "notes": "Notes",
+        "covid": "Covid masks are available upon request.",
+        "payment_methods": "Available payment methods are VISA, MasterCard, bancontact and cash.",
+        "bicycle_access": "Bicycle routes nearby (fietsknooppunten)",
+        "honesty_bar": "Honesty bar - Take a drink whenever you want, stay honest and pay for it.",
+        "cribs_request": "Cribs are available upon request."
+    },
+    "room_limits": {
+        "polders": "2 adults | 2 adults, 1 child (< 16y)",
+        "noordzee": "2 adults | 2 adults, 1 child (< 16y)",
+        "brugge": "2 adults | 2 adults, 1 child (< 16y)"
+    },
+    "room": {
+        "starting_from": "Starting from",
+        "info": "Information",
+        "crib": "Crib available by request.",
+        "surface": "Surface of 60m².",
+        "smoke": "No smoking allowed.",
+        "no_pets": "No pets allowed.",
+        "room_facilities": "Facilities",
+        "general_facilities": "General facilities"
+    },
+    "facility": {
+        "wifi": "WiFi",
+        "floor_type": "Flooring",
+        "view": "Outside view",
+        "elevator_access": "Elevator available",
+        "sofa_bed": "Sofa bed",
+        "bed_linen": "Bed linen",
+        "refrigerator": "Refrigerator",
+        "kettle": "Electric kettle",
+        "safe": "Safe",
+        "fan": "Fan",
+        "heating": "Heating",
+        "sofa": "Sofa",
+        "flatscreen_tv": "Flatscreen TV",
+        "shower": "Shower",
+        "towels": "Towels",
+        "hairdryer": "Hairdryer",
+        "toiletries": "Toiletries",
+        "toilet": "Toilet"
+    },
+    "highlights": {
+        "showOnMap": "Show on map",
+        "landmarks": "Landmarks",
+        "food/drinks": "Food and drinks",
+        "nature": "Nature"
+    },
+    "contact": {
+        "contact": "Contact information",
+        "address": "Address",
+        "email": "Email",
+        "tel": "Tel",
+        "btw": "VAT number",
+        "reservation": "Reservations",
+        "reservation_terms": "Reservations can only be done via email. We do not accept reservations via telephone.",
+        "payment_terms": "Payment terms can be found",
+        "pdf_target": "here"
+    }
+}
